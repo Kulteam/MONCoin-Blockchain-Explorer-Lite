@@ -10,10 +10,10 @@ Block explorer for MONCoin CryptoNote based cryptocurrency.
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
 
-### Development
+### Made by
 Devs:
-    @devopsralf
+    @Kulteam
 
 ### Note
-Forked from Turtlecoin Block Explorer
+Forked from Plenteum Blockchain Explorer
 A lot of this code is from the great Karbovanets/Karbowanec-Blockchain-Explorer
