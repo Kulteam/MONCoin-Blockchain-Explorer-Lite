@@ -12,7 +12,7 @@ Block explorer for MONCoin CryptoNote based cryptocurrency.
 
 ### Made by
 Devs:
-    @Kulteam
+    [@Kulteam](https://github.com/Kulteam)
 
 ### Note
 Forked from Plenteum Blockchain Explorer
