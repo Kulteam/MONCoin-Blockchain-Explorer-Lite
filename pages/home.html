@@ -13,7 +13,7 @@
                         <li><i class="fa fa-certificate"></i> Reward: <span id="currentReward"></span></li>
                         <li><i class="fa fa-money"></i> Supply: <span id="totalCoins"></span></li>
                         <li><i class="fa fa-percent" aria-hidden="true"></i> Emission: <span id="emissionPercent"></span> %</li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Future mining reward fund"><i class="fa fa-box-usd" aria-hidden="true"></i> DustFund: <span id="dustFundBalance"></span> PLE</a></li>
+                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Future mining reward fund"><i class="fa fa-box-usd" aria-hidden="true"></i> DustFund: <span id="dustFundBalance"></span> MON</a></li>
                     </ul>
 				</div>
 				<div class="col-sm-6 col-md-6">
@@ -177,14 +177,14 @@ currentPage = {
             }
             //get dustfund balance
             $.ajax({
-                url: api.replace("44016", "9095") + '/json_rpc',
+                url: api.replace("443", "9095") + '/json_rpc',
                 method: "POST",
                 data: JSON.stringify({
                     jsonrpc: "2.0",
                     id: "test",
                     method: "getBalance",
                     params: {
-                        address: "PLeafjfpaRWEXR4artCAer4yZFzeq5mRrMaLByP7Rkf3FL1URKUrBnP3ppfL6LVgz4hJYwk6DebUxZq6aQKHa8eT5f1ycM7j7d",
+                        address: "NganteKaysK6T61AjnRd2Qa4tFxg2mhmyEqwi6nhA1PY39pChT4AJz852xuMX6xm7VSwze7trCK33V3km9NG1zj1Gxid4QwzfL2",
                         password: ""
                     }
                 }),

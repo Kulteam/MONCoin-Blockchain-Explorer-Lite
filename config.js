@@ -1,4 +1,4 @@
-var api = 'http://sv1.moncoin.io:12898';
+var api = 'https://node-asian.moncoin.io:443';
 var donationAddress = "NganteKaysK6T61AjnRd2Qa4tFxg2mhmyEqwi6nhA1PY39pChT4AJz852xuMX6xm7VSwze7trCK33V3km9NG1zj1Gxid4QwzfL2";
 var blockTargetInterval = 30;
 var coinUnits = 1000000000; //atomic units after the decimal place
